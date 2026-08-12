@@ -1,3 +1,3 @@
 export default function Home() {
-  return <div>page 12345</div>;
+  return <div className="container pt-10">page 12345</div>;
 }
