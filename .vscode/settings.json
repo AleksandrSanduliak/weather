@@ -19,7 +19,9 @@
   ],
   "eslint.run": "onSave",
   "eslint.alwaysShowStatus": true,
-  
+  "js/ts.preferences.autoImportFileExcludePatterns": [
+    "lucide-react",
+  ],
   "prettier.enable": true,
   "prettier.requireConfig": true,
 
