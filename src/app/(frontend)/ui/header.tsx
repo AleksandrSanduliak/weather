@@ -15,7 +15,15 @@ export default function Header({}) {
   return (
     <HeaderLayout
       leftSideSlot={<Logo width={84} height={35} />}
-      centerSideSlot={<div className="flex align-middle gap-6">{list.map((item) => item)}</div>}
+      centerSideSlot={
+        <div className="flex align-middle gap-6">
+          {list.map((item) => (
+            <div className="cursor-pointer" key={item}>
+              {item}
+            </div>
+          ))}
+        </div>
+      }
       rightSideSlot={
         <div className="flex align-middle gap-6">
           <FindButton />

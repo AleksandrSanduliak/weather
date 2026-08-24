@@ -29,7 +29,8 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
     <html lang="ru" className={`${manrope.variable} ${inter.variable}`}>
       <body>
         <Header />
-        {children}
+
+        <main>{children}</main>
       </body>
     </html>
   );

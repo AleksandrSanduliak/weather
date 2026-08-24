@@ -84,6 +84,12 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+
+  --black: #121214;
+  --blue: #fff;
+  --light-gray: #8c8f96;
+  --dark-gray: #303030;
+  --red: #f93c00;
 }
 
 body {
@@ -138,5 +144,18 @@ body {
   }
   html {
     @apply font-sans;
+  }
+
+  h1 {
+    @apply font-[family-name:var(--font-accent)] font-black text-[3.1875rem] leading-[1.24] uppercase text-[var(--black)];
+  }
+  h2 {
+    @apply font-[family-name:var(--font-accent)] font-black text-[2rem] leading-[1.35] uppercase text-[var(--black)];
+  }
+  h3 {
+    @apply font-[family-name:var(--font-accent)] font-bold text-[1.2rem] leading-[1.47] uppercase text-[var(--black)];
+  }
+  h4 {
+    @apply font-[family-name:var(--font-accent)] font-semibold text-[1.438rem] leading-[1.30] uppercase text-[var(--black)];
   }
 }

@@ -2,7 +2,7 @@
 /* DO NOT MODIFY IT BECAUSE IT COULD BE REWRITTEN AT ANY TIME. */
 import { GRAPHQL_PLAYGROUND_GET } from '@payloadcms/next/routes';
 
-import config from '@payload-config';
+import config from '@/payload-config';
 
 import '@payloadcms/next/css';
 

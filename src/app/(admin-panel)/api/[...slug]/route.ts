@@ -9,7 +9,7 @@ import {
   REST_PUT,
 } from '@payloadcms/next/routes';
 
-import config from '@payload-config';
+import config from '@/payload-config';
 
 import '@payloadcms/next/css';
 
